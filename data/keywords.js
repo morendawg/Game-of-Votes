@@ -4,6 +4,8 @@ var keywords = {
   "presidential campaign": "right for the Throne",
   "presidential nomination": "claim for the throne",
   "foreign policy": "assassination strategy",
+  "foreign-policy": "assassination strategy",
+  "Foreign policy": "assassination strategy",
   "Democratic Primary": "Battle for the North",
   "DNC": "Noblemen of the North",
   "GOP": "Noblemen of the South",
