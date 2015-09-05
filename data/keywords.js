@@ -29,7 +29,7 @@ var keywords = {
   "Senator": "Squire",
   "senator": "Squire",
   "Sen.": "Squire",
-  "President ": "King",
+  "president ": "King",
   "Governor": "Lord",
   "governor": "Lord",
   "Gov.": "Lord",
