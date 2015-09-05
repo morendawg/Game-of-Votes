@@ -31,6 +31,12 @@
         ]    
     } ],
 
+    "background": {
+        "scripts": ["popup.js",
+            "alert.js"],
+        "persistent": false
+  },
+
     "permissions": [
         "tabs",
         "http://*/*"

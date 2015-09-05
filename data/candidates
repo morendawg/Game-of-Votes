@@ -1,10 +1,6 @@
 var candidates = {
 	"Barack Obama": "Jon Snow",
 	"Obama": "Jon Snow",
-
-	“Lincoln Chafee”: “”,
-	“Chafee”: “”,
-
 	“Jeb Bush”: “Stannis Baratheon”,
 	“Bush”: "Stannis",
 	“Hillary Rodham Clinton”: “Cersei Lannister”,
@@ -13,10 +9,6 @@ var candidates = {
 	"Clinton": "Cersei",	
 	“Ben Carson”: “Petyr Baelish”,
 	“Carson”: “Baelish”,
-
-	“Martin O’Malley”: “”,
-	“O’Malley”: “”,
-
 	“Bernie Sanders”: “The High Sparrow”,
 	“Sanders”: “The High Sparrow”,
 	“Bernie”: “The High Sparrow”,
@@ -32,16 +24,35 @@ var candidates = {
 	“Joseph R. Biden Jr.”: “Jorah Mormont”,
 	“Joe Biden”: “Jorah Mormont”,
 	“Biden”: “Jorah”,
-
-	“Jim Gilmore”: “”,
-	“Gilmore”: “”,
-
-	"Donald Trump": "",
-	"Trump": "",
-	
+	“Lindsey Graham”: “Lord Varys”,
+	“Graham”: “Varys”,	
 	"Rick Santorum": "Hodor",
 	"Santorum": "Hodor",
-
-	“Lindsey Graham”: “Lord Varys”,
-	“Graham”: “Varys”
+	“Lincoln Chafee”: “Bronn”,
+	“Chafee”: “Bronn”,
+	“Martin O’Malley”: “Oberyn Martell”,
+	“O’Malley”: “Oberyn”,
+	“Jim Gilmore”: “Podrick Payne”,
+	“Gilmore”: “Podrick”,
+	"Donald Trump": "Joffrey Baratheon",
+	"Trump": "Joffrey",	
+	"Marco Rubio": "Samwell Tarly",
+	"Rubio": "Tarly",	
+	"Mitt Romney": "Maester Aemon",
+	"Romney": "Maester Aemon",
+	"Mike Huckabee": "Sandor Clegane",
+	"Huckabee": "The Hound",
+	"Bobby Jindal": "Sansa Stark",
+	"Jindal": "Sansa",
+	"John Kasich": "Grey Worm",
+	"Kasich": "Grey Worm",
+	"George Pataki": "Jojen Reed",
+	"Pataki": "Jojen",
+	"Rand Paul": "Theon Greyjoy",
+	"Paul": "Theon",
+	"Rick Perry": "Ellaria Sand,
+	"Perry": "Ellaria",
+	"Scott Walker": "Ser Davos",
+	"Walker": "Ser Davos"
+	
 }
