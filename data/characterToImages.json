@@ -161,4 +161,4 @@ var characterToImage = {
 		"http://imgur.com/hThq3Q3", //square
 		"http://imgur.com/td6Wddh"  //tall
 		]
-}
+};
