@@ -25,6 +25,7 @@
                 "data/USStates.js",
                 "data/keywords.js",
                 "data/50TopUSCities.js",
+                "data/randomImages.js",
                 "changeCandidates.js",
                 "changeLocations.js",
                 "changeImages.js",

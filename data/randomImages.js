@@ -1,4 +1,4 @@
-var randomImages [
+var randomImages = [
 	"http://imgur.com/Y4WqJOH.jpg",
 	"http://imgur.com/DNme5UN.jpg",
 	"http://imgur.com/6LpRjfY.jpg",

@@ -19,6 +19,7 @@ var slugToName = {
     pataki: 'Jojen Reed'
 };
 
+/*
 var randGroup = [
     'http://i.imgur.com/Yy2G2kE.jpg',
     'http://i.imgur.com/POpSTjZ.jpg',
@@ -26,7 +27,7 @@ var randGroup = [
     'http://i.imgur.com/DBkLU6J.jpg',
     'http://i.imgur.com/7nqAQpO.jpg'
 
-]
+]*/
 
 function randomFrom(arr){
     var randomIndex = Math.floor(Math.random() * arr.length);
@@ -49,5 +50,5 @@ $('img').each(function() {
     }
     // if nothing found then just change it
     
-    /*$(this).attr('src',images.misc);*/
+    $(this).attr('src',randomFrom(randomImages));
 });
