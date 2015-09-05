@@ -1,8 +1,8 @@
 // LOCATIONS
 
 var rules = {
-    "Donald J. Trump": "Joffrey",
-    "Donald Trump": "Joffrey",
+    "Donald J. Trump": "Joffrey Lannister",
+    "Donald Trump": "Joffrey Lannister",
     "Trump": "Joffrey",
 
     "Hillary Rodham Clinton": "Catelyn Stark",
@@ -10,6 +10,8 @@ var rules = {
     "Hillary": "Catelyn Stark",
     "Clinton": "Catelyn Stark"
 }
+
+/*
 
 $("body").contents().each(function () {
     if (this.nodeType === 3) {
@@ -32,12 +34,10 @@ $("body").contents().each(function () {
 
 
 })
+*/
+var html = $("body").html();
+for (key in rules) {
+    html = html.replace(key,rules[key])
+}
+$("body").html(html);
 
-    /*
-      var html = $("body").html();
-      for (key in rules) {
-      html = html.replace(key,rules[key])
-      }
-      $("body").html(html);
-
-    */
