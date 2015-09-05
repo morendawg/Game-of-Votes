@@ -13,7 +13,7 @@ var candidates = {
 	"Carson": "Baelish",
 	"Bernie Sanders": "The High Sparrow",
 	"Mr. Sanders": "The High Sparrow",
-    "Sanders'": "The High Sparrow's",
+  "Sanders'": "The High Sparrow's",
 	"Sanders": "The High Sparrow",
 	"Bernie": "The High Sparrow",
 	"The Bern": "The Hish Sparrow",
