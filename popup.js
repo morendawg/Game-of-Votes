@@ -9,14 +9,30 @@
  *   is found.
  */
 
-
+var status = document.getElementById('clickme').textContent;
  function hello() {
-  chrome.tabs.executeScript({
-    file: 'alert.js'
-  }); 
+  if (status === "Disable Extension"){
+     chrome.tabs.executeScript({
+      file: 'alert.js'
+    }); 
+    document.getElementById('clickme').textContent = "Enable Extension";
+    status = document.getElementById('clickme').textContent;
+  }else{
+     chrome.tabs.executeScript({
+      file: 'disabled.js'
+    }); 
+    document.getElementById('clickme').textContent = "Disable Extension";
+    status = document.getElementById('clickme').textContent;
+  }
+
+
+  // chrome.tabs.executeScript({
+  //   file: 'alert.js'
+  // }); 
 }
 
 document.getElementById('clickme').addEventListener('click', hello);
+
 
 function getCurrentTabUrl(callback) {
   // Query filter to be passed to chrome.tabs.query - see

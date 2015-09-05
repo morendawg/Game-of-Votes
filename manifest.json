@@ -34,7 +34,7 @@
     } ],
 
     "background": {
-        "scripts": ["popup.js", "alert.js"],
+        "scripts": ["popup.js", "alert.js", "disabled.js"],
         "persistent": false
   },
 
