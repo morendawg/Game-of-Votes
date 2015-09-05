@@ -13,7 +13,10 @@
     },*/
 
     "content_scripts": [ {
-        "js": [ "jquery-1.11.3.min.js", "gotify.js"  ],
+        "js": [ "jquery-1.11.3.min.js", 
+                "characters.js",
+                "locations.js",
+                "images.js"  ],
         "matches": [ "http://*/*", "https://*/*" ]    
     } ],
 
