@@ -3,9 +3,26 @@ Tired of news about the election? Instead read about something a little more spi
 Fun sites to go on while using the extension
 -------
 washington post
+
 nytimes
+
 cnn
+
 foxnews
+
 poltico
 
 .. more
+
+
+Keywords
+-------
+Secretary of State
+
+GOP
+
+President
+
+Vice President
+
+Governor
