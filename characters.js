@@ -1,14 +1,62 @@
 // CHARACTERS
 
-var rules = {
-    "Donald J. Trump": "Joffrey Lannister",
-    "Donald Trump": "Joffrey Lannister",
-    "Trump": "Joffrey",
-
-    "Hillary Rodham Clinton": "Catelyn Stark",
-    "Hillary Clinton": "Catelyn Stark",
-    "Hillary": "Catelyn Stark",
-    "Clinton": "Catelyn Stark"
+var candidates = {
+	"Barack Obama": "Jon Snow",
+	"Obama": "Jon Snow",
+	"Jeb Bush": "Stannis Baratheon",
+	"Bush": "Stannis",
+	"Hillary Rodham Clinton": "Cersei Lannister",
+	"Hillary Clinton": "Cersei Lannister",
+	"Hillary": "Cersei",
+	"Clinton": "Cersei",	
+	"Ben Carson": "Petyr Baelish",
+	"Carson": "Baelish",
+	"Bernie Sanders": "The High Sparrow",
+	"Sanders": "The High Sparrow",
+	"Bernie": "The High Sparrow",
+	"The Bern": "The Hish Sparrow",
+	"Chris Christie": "Robert Baratheon",
+	"Christie": "Robery Baratheon",
+	"Ted Cruz": "Ramsay Bolton",
+	"Cruz": "Ramsay",
+	"Jim Webb": "Eddard Stark",
+	"Webb": "Eddard",
+	"Carly Fiorina": "Ygritte the Wildling",
+	"Fiorina": "Ygritte",
+	"Joseph R. Biden Jr.": "Jorah Mormont",
+	"Joe Biden": "Jorah Mormont",
+	"Biden": "Jorah",
+	"Lindsey Graham": "Lord Varys",
+	"Graham": "Varys",	
+	"Rick Santorum": "Hodor",
+	"Santorum": "Hodor",
+	"Lincoln Chafee": "Bronn",
+	"Chafee": "Bronn",
+	"Martin O’Malley": "Oberyn Martell",
+	"O’Malley": "Oberyn",
+	"Jim Gilmore": "Podrick Payne",
+	"Gilmore": "Podrick",
+	"Donald Trump": "Joffrey Baratheon",
+	"Trump": "Joffrey",	
+	"Marco Rubio": "Samwell Tarly",
+	"Rubio": "Tarly",	
+	"Mitt Romney": "Maester Aemon",
+	"Romney": "Maester Aemon",
+	"Mike Huckabee": "Sandor Clegane",
+	"Huckabee": "The Hound",
+	"Bobby Jindal": "Sansa Stark",
+	"Jindal": "Sansa",
+	"John Kasich": "Grey Worm",
+	"Kasich": "Grey Worm",
+	"George Pataki": "Jojen Reed",
+	"Pataki": "Jojen",
+	"Rand Paul": "Theon Greyjoy",
+	"Paul": "Theon",
+	"Rick Perry": "Ellaria Sand",
+	"Perry": "Ellaria",
+	"Scott Walker": "Ser Davos",
+	"Walker": "Ser Davos"
+	
 }
 
 /*
@@ -36,7 +84,9 @@ $("body").contents().each(function () {
 })
 */
 var html = $("body").html();
-for (key in rules) {
-    html = html.replace(key,rules[key])
+console.log(html);
+for (candidate in candidates) {
+    var re = new RegExp(candidate, 'g');
+    html = html.replace(re,candidates[candidate])
 }
 $("body").html(html);
