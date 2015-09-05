@@ -40,7 +40,6 @@ $('img').each(function() {
     for (character in slugToName) {
         if (s.indexOf(character) > -1) {
             var imgs = characterToImage[slugToName[character]];
-            console.log(imgs);
             var randImg = randomFrom(imgs);
 
             $(this).attr('src',randImg);
@@ -50,7 +49,9 @@ $('img').each(function() {
     }
     // if nothing found then just change it
     
-    $(this).attr('src',randomFrom(randomImages));
-    
-    $(this).css('max-width','100%');
+    var html = $(this).parent().html();
+    if (html.indexOf('logo') == -1) {
+        $(this).attr('src',randomFrom(randomImages));
+        $(this).css('max-width','100%');
+    }
 });

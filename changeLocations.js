@@ -8,7 +8,6 @@ function randomFrom(arr){
 // City -> GoT castle
 // State -> GoT city
 
-var html = $("body").html();
 for (var i =0; i < topCities.length; i++) {
     var city = topCities[i];
     var re = new RegExp(city, 'g');
@@ -17,7 +16,6 @@ for (var i =0; i < topCities.length; i++) {
 }
 for (var i =0; i < states.length; i++) {
     var state = states[i];
-    console.log(state);
     var re = new RegExp(state, 'g');
     var randCity = randomFrom(cities);
     html = html.replace(re,randCity);

@@ -26,10 +26,12 @@
                 "data/keywords.js",
                 "data/50TopUSCities.js",
                 "data/randomImages.js",
+                "data/classicQuotes.js",
                 "changeCandidates.js",
                 "changeLocations.js",
                 "changeImages.js",
-                "changeKeywords.js"
+                "changeKeywords.js",
+                "changeQuotes.js"
               ],
         "matches": [ 
             "https://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
