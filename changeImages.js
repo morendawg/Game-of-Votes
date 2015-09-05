@@ -20,19 +20,20 @@ var slugToName = {
 };
 
 /*
-var randGroup = [
-    'http://i.imgur.com/Yy2G2kE.jpg',
-    'http://i.imgur.com/POpSTjZ.jpg',
-    'http://i.imgur.com/HedWlgz.jpg',
-    'http://i.imgur.com/DBkLU6J.jpg',
-    'http://i.imgur.com/7nqAQpO.jpg'
+  var randGroup = [
+  'http://i.imgur.com/Yy2G2kE.jpg',
+  'http://i.imgur.com/POpSTjZ.jpg',
+  'http://i.imgur.com/HedWlgz.jpg',
+  'http://i.imgur.com/DBkLU6J.jpg',
+  'http://i.imgur.com/7nqAQpO.jpg'
 
-]*/
+  ]*/
 
 function randomFrom(arr){
     var randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
 }
+
 
 $('img').each(function() {
     var s = $(this).attr('src');
@@ -44,11 +45,12 @@ $('img').each(function() {
 
             $(this).attr('src',randImg);
             $(this).css('max-width','100%');
-            $(this).css('max-width','100%');
             
         }
     }
     // if nothing found then just change it
     
     $(this).attr('src',randomFrom(randomImages));
+    
+    $(this).css('max-width','100%');
 });
