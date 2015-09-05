@@ -1,4 +1,4 @@
-[
+var castles = [
 	"Winterfell",
 	"Casterly Rock",
 	"Kind's Landing",

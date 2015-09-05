@@ -1,4 +1,4 @@
-[
+var cities = [
 	"Braavos",
 	"King’s Landing",
 	"The Free Cities",

@@ -1,0 +1,30 @@
+// key => Game of Thrones name
+// value => quotes by that char
+{
+  "Jon Snow": {},
+  "Stannis Baratheon": {},
+  "Cersei Lannister": {},
+  "Petyr Baelish": {},
+  "The High Sparrow": {},
+  "Robert Baratheon": {},
+  "Ramsay Bolton": {},
+  "Eddard Stark": {},
+  "Ygritte": {},
+  "Jorah Mormont": {},
+  "Lord Varys": {},
+  "Hodor": {},
+  "Bronn": {},
+  "Oberyn Martell": {},
+  "Podrick Payne": {},
+  "Joffrey Baratheon": {},
+  "Samwell Tarly": {},
+  "Maester Aemon": {},
+  "The Hound": {},
+  "Sansa Stark": {},
+  "Grey Worm": {},
+  "Jojen Reed": {},
+  "Theon Greyjoy": {},
+  "Ellaria Sand": {},
+  "Ser Davos": {},
+
+}
