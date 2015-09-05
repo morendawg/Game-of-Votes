@@ -1,7 +1,7 @@
 var candidates = {
 	"Barack Obama": "Jon Snow",
-	"Obama": "Jon Snow",
 	"Jeb Bush": "Stannis Baratheon",
+	"Obama": "Jon Snow",
 	"Bush": "Stannis",
 	"Mr. Bush": "Stannis",
 	"Hillary Rodham Clinton": "Cersei Lannister",
