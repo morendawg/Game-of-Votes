@@ -21,7 +21,10 @@
                 "characters.js",
                 "locations.js",
                 "images.js"  ],
-        "matches": [ "http://*/*", "https://*/*" ]    
+        "matches": [ 
+            "https://www.washingtonpost.com/*", "https://www.washingtonpost.com/*" 
+
+        ]    
     } ],
 
     "permissions": [
