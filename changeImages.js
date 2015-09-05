@@ -1,21 +1,22 @@
 // IMAGES
-var images = {
-    clinton: '',
-    trump: '',
-    carson: '',
-    bush: '',
-    cruz: '',
-    rubio: '',
-    walker: '',
-    fiorina: '',
-    huckabee: '',
-    kasich: '',
-    christie: '',
-    paul: '',
-    perry: '',
-    santorum: '',
-    jindal: '',
-    pataki: ''
+var slugToName = {
+    clinton: 'Cersei Lannister',
+    sanders: 'The High Sparrow',
+    trump: 'Joffrey Baratheon',
+    carson: 'Petyr Baelish',
+    bush: 'Stannis Baratheon',
+    cruz: 'Ramsay Bolton',
+    rubio: 'Samwell Tarly',
+    walker: 'Ser Davos',
+    fiorina: 'Ygritte the Wildling',
+    huckabee: 'Sandor Clegane',
+    kasich: 'Grey Worm',
+    christie: 'Robert Baratheon',
+    paul: 'Theon Greyjoy',
+    perry: 'Ellaria Sand',
+    santorum: 'Hodor',
+    jindal: 'Sansa Stark',
+    pataki: 'Jojen Reed'
 };
 
 var randGroup = [
@@ -34,15 +35,20 @@ function randomFrom(arr){
 
 $('img').each(function() {
     var s = $(this).attr('src');
-    for (character in images) {
+    for (character in slugToName) {
         if (s.indexOf(character) > -1) {
-            //console.log('YEYEFHJADKJFHDK ' + character);
-            $(this).attr('src',randomFrom(randGroup));
-            $(this).style('max-width','100%');
-            $(this).style('max-width','100%');
+            console.log('MATCH on ' + character);
+            console.log(slugToName[character]);
+            console.log(characterToImage[slugToName[character]]);
+            var imgs = characterToImage[slugToName[character]];
+            console.log(imgs);
+            var randImg = randomFrom(imgs);
+
+            $(this).attr('src',randImg); //randomFrom(randGroup)
+            $(this).css('max-width','100%');
+            $(this).css('max-width','100%');
             
             //$(this).attr('src',images[character]);
-            return;
         }
     }
     // if nothing found then just change it
