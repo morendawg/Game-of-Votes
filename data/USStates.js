@@ -1,4 +1,4 @@
-var states {
+var states = [
 	"Alabama",
 	"Alaska",
 	"Arizona",
@@ -49,4 +49,4 @@ var states {
 	"West Virginia",
 	"Wisconsin",
 	"Wyoming"
-};
+];

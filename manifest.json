@@ -22,10 +22,14 @@
                 "data/characterToImages.js",
                 "data/castles.js",
                 "data/cities.js",
+                "data/USStates.js",
+                "data/keywords.js",
                 "data/50TopUSCities.js",
                 "changeCandidates.js",
                 "changeLocations.js",
-                "changeImages.js"  ],
+                "changeImages.js",
+                "changeKeywords.js"
+              ],
         "matches": [ 
             "https://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
             "*://www.nytimes.com/*",

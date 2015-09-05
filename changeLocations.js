@@ -5,14 +5,21 @@ function randomFrom(arr){
     return arr[randomIndex];
 }
 
+// City -> GoT castle
+// State -> GoT city
 
-console.log('FUUUCK');
 var html = $("body").html();
 for (var i =0; i < topCities.length; i++) {
     var city = topCities[i];
-    console.log(city);
     var re = new RegExp(city, 'g');
     var randCastle = randomFrom(castles);
     html = html.replace(re,randCastle);
+}
+for (var i =0; i < states.length; i++) {
+    var state = states[i];
+    console.log(state);
+    var re = new RegExp(state, 'g');
+    var randCity = randomFrom(cities);
+    html = html.replace(re,randCity);
 }
 $("body").html(html);
