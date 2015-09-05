@@ -1,4 +1,4 @@
-{
+var quotes = {
   "pc":
     [
       "The man who passes the sentence should swing the sword.",

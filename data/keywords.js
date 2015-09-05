@@ -1,4 +1,4 @@
-{
+var keywords = {
   "Senator": "Member of the Small Council",
   "Sen.": "Member of the Small Council",
   "President": "King",

@@ -1,7 +1,7 @@
 // key => Game of Thrones name
 // value => quotes by that char
 {
-  "Jon Snow": { },
+  "Jon Snow": {},
   "Stannis Baratheon": {},
   "Cersei Lannister": {},
   "Petyr Baelish": {},
