@@ -14,4 +14,4 @@ New York Times,
 CNN,
 Poltico,
 Fox News,
-.. and more
+etc.
