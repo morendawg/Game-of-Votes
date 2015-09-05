@@ -18,6 +18,7 @@
 
     "content_scripts": [ {
         "js": [ "jquery-1.11.3.min.js", 
+                "data/candidates.js",
                 "changeCandidates.js",
                 "changeLocations.js",
                 "changeImages.js"  ],
