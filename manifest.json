@@ -18,9 +18,9 @@
 
     "content_scripts": [ {
         "js": [ "jquery-1.11.3.min.js", 
-                "characters.js",
-                "locations.js",
-                "images.js"  ],
+                "changeCandidates.js",
+                "changeLocations.js",
+                "changeImages.js"  ],
         "matches": [ 
             "https://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
             "*://www.nytimes.com/*",
