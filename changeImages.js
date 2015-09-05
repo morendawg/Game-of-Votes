@@ -37,25 +37,17 @@ $('img').each(function() {
     var s = $(this).attr('src');
     for (character in slugToName) {
         if (s.indexOf(character) > -1) {
-            console.log('MATCH on ' + character);
-            console.log(slugToName[character]);
-            console.log(characterToImage[slugToName[character]]);
             var imgs = characterToImage[slugToName[character]];
             console.log(imgs);
             var randImg = randomFrom(imgs);
 
-            $(this).attr('src',randImg); //randomFrom(randGroup)
+            $(this).attr('src',randImg);
             $(this).css('max-width','100%');
             $(this).css('max-width','100%');
             
-            //$(this).attr('src',images[character]);
         }
     }
     // if nothing found then just change it
     
     /*$(this).attr('src',images.misc);*/
 });
-
-
-
-//$('img').each(function() {if ($(this).attr('src').indexOf('clinton') > -1) { return 'fuck'} });
