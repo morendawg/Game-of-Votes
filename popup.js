@@ -8,6 +8,15 @@
  * @param {function(string)} callback - called when the URL of the current tab
  *   is found.
  */
+
+
+ function hello() {
+  chrome.tabs.executeScript({
+    file: 'alert.js'
+  }); 
+}
+
+document.getElementById('clickme').addEventListener('click', hello);
 function getCurrentTabUrl(callback) {
   // Query filter to be passed to chrome.tabs.query - see
   // https://developer.chrome.com/extensions/tabs#method-query
