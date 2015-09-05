@@ -1,8 +1,7 @@
-var quotes =
-    [
+var quotes = [
       "You'll be fucking your own bride with a wooden cock.",
       "We'll come out behind them and fuck them in their arses",
-      "I'm going to have to eat every fucking chicken in this room."
+      "I'm going to have to eat every fucking chicken in this room.",
       "The man who passes the sentence should swing the sword.",
       "A Lannister always pays his debts",
       "The things I do for love.",
@@ -28,7 +27,7 @@ var quotes =
       "I wish I was the monster you think I am.",
       "If you would take a man’s life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.",
       "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armor yourself in it, and it will never be used to hurt you.",
-      "Let them see that their words can cut you, and you’ll never be free of the mockery. If they want to give you a name, take it, make it your own. Then they can’t hurt you with it anymore."
+      "Let them see that their words can cut you, and you’ll never be free of the mockery. If they want to give you a name, take it, make it your own. Then they can’t hurt you with it anymore.",
       "A mind needs books as a sword needs a whetstone, if it is to keep its edge.",
       "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you.",
       "Bran thought about it. 'Can a man still be brave if he's afraid?' 'That is the only time a man can be brave,' his father told him.",
@@ -59,7 +58,7 @@ var quotes =
       "If a man paints a target on his chest, he should expect that sooner or later someone will loose an arrow on him.",
       "You can't hammer tin into iron, no matter how hard you beat it, but that doesn't mean it's useless.",
       "Swift as a deer. Quiet as a shadow. Fear cuts deeper than swords. Quick as a snake. Calm as still water.",
-      "I’ll last longer than you."
+      "I’ll last longer than you.",
       "Of all the ways I’d kill you, poison would be the last.",
       "Nothing isn't better or worse than anything. Nothing is just nothing.",
       "Hate's as good a thing as any to keep a person going. Better than most.",
