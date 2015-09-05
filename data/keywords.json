@@ -1,7 +1,9 @@
 {
   "Senator": "Member of the Small Council",
+  "Sen.": "Member of the Small Council",
   "President": "King",
   "Governor": "Lord",
+  "Gov.": "Lord",
   "Secretary of State": "Lord",
   "State": "Domain",
   "Retired Neurosurgeon": "Maester",

@@ -47,6 +47,8 @@ var candidates = {
 	"Jim Gilmore”: "Podrick Payne",
 	"Mr. Gilmore": "Podrick",
 	"Gilmore”: "Podrick”,
+	"Donald J Trump": "Joffrey Baratheon",
+	"Donald J. Trump": "Joffrey Baratheon",
 	"Donald Trump": "Joffrey Baratheon",
 	"Mr. Trump": "Joffrey",
 	"Trump": "Joffrey",
