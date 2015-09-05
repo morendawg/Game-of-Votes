@@ -9,9 +9,9 @@ Here's our Devpost: http://devpost.com/software/game-of-votes
 
 #Fun sites to go on while using the extension:
 -------
-Washington Post
-New York Times
-CNN
-Poltico
-Fox News
+Washington Post,
+New York Times,
+CNN,
+Poltico,
+Fox News,
 .. and more
