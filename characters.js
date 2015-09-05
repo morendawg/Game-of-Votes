@@ -45,6 +45,7 @@ var candidates = {
 	"Martin O’Malley": "Oberyn Martell",
 	"Mr. O'Malley": "Oberyn",
 	"O’Malley": "Oberyn",
+    "O'Malley": "Oberyn",
 	"OMalley": "Oberyn",
 	"Jim Gilmore": "Podrick Payne",
 	"Mr. Gilmore": "Podrick",
