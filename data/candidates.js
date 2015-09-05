@@ -48,13 +48,9 @@ var candidates = {
 	"OMalley": "Oberyn",
 	"Jim Gilmore": "Podrick Payne",
 	"Mr. Gilmore": "Podrick",
-<<<<<<< HEAD
 	"Gilmore": "Podrick",
-=======
-	"Gilmore”: "Podrick”,
 	"Donald J Trump": "Joffrey Baratheon",
 	"Donald J. Trump": "Joffrey Baratheon",
->>>>>>> 0a7fdff3b2d40620342f298da4c43d015fd48f4f
 	"Donald Trump": "Joffrey Baratheon",
 	"Mr. Trump": "Joffrey",
 	"Trump": "Joffrey",
