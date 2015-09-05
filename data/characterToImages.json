@@ -1,0 +1,33 @@
+var characterToImage = {
+	"Tyrion Lannister" :
+		[
+		"http://imgur.com/PwVbOTV",
+		"http://imgur.com/6D4n7iw",
+		"http://imgur.com/CIBkUbL"
+		],
+	"Cersei Lannister": 
+		[
+		"http://imgur.com/ewPKpzJ",
+		"http://imgur.com/3WLZtjb",
+		"http://imgur.com/Jbpx4cj"
+		],
+	"Daenerys Targaryen":
+		[
+		"http://imgur.com/4y9Jjgy",
+		"http://imgur.com/Raon4Ww",
+		"http://imgur.com/RMFTqzm"
+		],
+	"Jon Snow": "",
+	"Sansa Stark": "",
+	"Stannis Baratheon" : "",
+	"Petyr Baelish" : "",
+	"The High Sparrow" : "",
+	"Robert Baratheon" : "",
+	"Ramsay Bolton" : "",
+	"Eddard Stark" : "",
+	"Ygritte the Wildling" : "",
+	"Jorah Mormont" : "",
+	"Hodor" : "",
+	"Lord Varys" : "",
+	"Joffrey Baratheon" : ""
+}
