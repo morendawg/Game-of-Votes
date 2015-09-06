@@ -57,7 +57,7 @@ $('img').each(function() {
     console.log("Reached img");
 
     for (character in slugToName) {
-        if (s.indexOf(character) > -1) {
+        if (s && s.indexOf(character) > -1) {
             var imgs = characterToImage[slugToName[character]];
             var randImg = randomFrom(imgs);
 
@@ -81,4 +81,18 @@ $('img').each(function() {
         $(this).css('max-width','100%');
     }
 */
+});
+
+
+$('a').each(function() {
+
+    if ($(this).css('background-image') != 'none') {
+        console.log($(this).css('background-image'));
+        $(this).css('background-image','url('+randomFrom(randomImages)) + ')';
+    }
+    /*
+    if ($(this).attr('background-image')) {
+        console.log("yess");
+        $(this).attr('background-image',randomFrom(randomImages));
+    }*/
 });
