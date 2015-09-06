@@ -23,6 +23,7 @@ $("body").contents().each(function () {
 
 })
 */
+
 var html = $("body").html();
 for (candidate in candidates) {
     var re = new RegExp(candidate, 'g');

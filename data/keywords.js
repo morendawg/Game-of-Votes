@@ -15,6 +15,7 @@ var keywords = {
   "Democrat": "Northman",
   "successful": "fruitful",
   "primaries": "skirmishes",
+  "Primaries": "Skirmishes",
   "Democratic": "Northern",
   "Republicans": "Valyrians",
   "Republican": "Valyrian",

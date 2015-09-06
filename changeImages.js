@@ -26,6 +26,7 @@ var slugToName = {
   'http://i.imgur.com/HedWlgz.jpg',
   'http://i.imgur.com/DBkLU6J.jpg',
   'http://i.imgur.com/7nqAQpO.jpg'
+
   ]*/
 
 function randomFrom(arr){
