@@ -17,7 +17,7 @@
     },
 
     "content_scripts": [ {
-        "js": [ "jquery-1.11.3.min.js", 
+        "js": [ "jquery-1.11.3.min.js",
                 "data/candidates.js",
                 "data/characterToImages.js",
                 "data/castles.js",
@@ -28,13 +28,18 @@
                 "data/randomImages.js",
                 "data/classicQuotes.js"
               ],
-        "matches": [ 
+        "matches": [
             "http://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
             "*://www.nytimes.com/*",
+            "*://www.nbcnews.com/*",
+            "*://www.msnbcnews.com/*",
+            "*://www.realclearpolitics.com/*",
+            "*://www.huffingtonpost.com/*",
+            "*://www.usatoday.com/*",
             "*://www.cnn.com/*",
             "*://www.foxnews.com/*",
             "*://www.politico.com/*"
-        ]    
+        ]
     } ],
 
     "background": {
