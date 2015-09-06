@@ -39,7 +39,7 @@
     } ],
 
     "background": {
-        "scripts": ["popup.js", "disabled.js", "alert.js"],
+        "scripts": ["jquery-1.11.3.min.js","popup.js", "disabled.js", "alert.js"],
         "persistent": false
   },
 
