@@ -26,12 +26,7 @@
                 "data/keywords.js",
                 "data/50TopUSCities.js",
                 "data/randomImages.js",
-                "data/classicQuotes.js",
-                "changeCandidates.js",
-                "changeLocations.js",
-                "changeImages.js",
-                "changeKeywords.js",
-                "changeQuotes.js"
+                "data/classicQuotes.js"
               ],
         "matches": [ 
             "https://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
@@ -44,7 +39,7 @@
     } ],
 
     "background": {
-        "scripts": ["popup.js", "alert.js", "disabled.js"],
+        "scripts": ["popup.js", "disabled.js", "alert.js"],
         "persistent": false
   },
 

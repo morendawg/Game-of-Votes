@@ -32,7 +32,8 @@ var slugToName = {
 function randomFrom(arr){
     var randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
-}
+};
+
 
 
 $('img').each(function() {
@@ -64,8 +65,8 @@ $('a').each(function() {
         $(this).css('background-image','url('+randomFrom(randomImages)) + ')';
     }
     /*
-    if ($(this).attr('background-image')) {
-        console.log("yess");
-        $(this).attr('background-image',randomFrom(randomImages));
-    }*/
+      if ($(this).attr('background-image')) {
+      console.log("yess");
+      $(this).attr('background-image',randomFrom(randomImages));
+      }*/
 });

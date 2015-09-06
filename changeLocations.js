@@ -8,6 +8,9 @@ function randomFrom(arr){
 // City -> GoT castle
 // State -> GoT city
 
+
+var html = $("body").html();
+console.log('changing locations');
 for (var i =0; i < topCities.length; i++) {
     var city = topCities[i];
     var re = new RegExp(city, 'g');
