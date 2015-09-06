@@ -29,12 +29,11 @@
                 "data/classicQuotes.js"
               ],
         "matches": [ 
-            "https://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
+            "http://www.washingtonpost.com/*", "https://www.washingtonpost.com/*",
             "*://www.nytimes.com/*",
             "*://www.cnn.com/*",
             "*://www.foxnews.com/*",
-            "*://www.politico.com/*",
-            "*://www.huffingtonpost.com/*"
+            "*://www.politico.com/*"
         ]    
     } ],
 

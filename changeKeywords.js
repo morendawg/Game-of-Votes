@@ -9,7 +9,6 @@ $("body").html(html);
 */
 
 
-console.log("changing keywords");
 $("body").contents().each(function () {
     if (this.nodeType === 3) {
         var text = $.trim($(this).text());
@@ -31,4 +30,3 @@ $("body").contents().each(function () {
     }
     // To reduce calls just do
 });
-next();
