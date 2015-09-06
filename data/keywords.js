@@ -11,6 +11,8 @@ var keywords = {
   "GOP": "Noblemen of the South",
   "G.O.P.": "Noblemen of the South",
   "Banks": "Iron Bank",
+  "liberal" : "northern",
+  "conservative" : "southern",
   "Democrats": "Northmen",
   "Democrat": "Northman",
   "successful": "fruitful",
